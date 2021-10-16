@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate</title>
+    <link rel="stylesheet" href="/estilos.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="/img/VF.jpg" alt="logov+f.jpg" width="100" height="100">
+        </div>
+    </header>
+    <main>
+    <!-- Formulario para inicar sesión -->
+    <fieldset class="fuente3"> 
+        <legend>Regístrate</legend>
+        <form action="iniciaS">
+        <label for="name">Nombre</label>
+        <input type="text" name="nombre" id="" placeholder="Escribe tu nombre">
+        <br>
+        <br>
+
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="" placeholder="Escribe tu apellido">
+        <br><br>
+        <label for="fnac">Fecha de Nacimiento</label>
+        <input type="date" name="fnac" id="">
+        <br><br>
+        <legend>Selecciona tu país</legend>
+        <input type="checkbox" name="uru" id="" value="Uruguay"> Uruguay
+        <input type="checkbox" name="arg" id="">Argentina
+        <input type="checkbox" name="arg" id="">Brasil
+        <br>
+        <br>
+        <legend>Selecciona tu ciudad</legend>
+        <select name="ciudad" id="">
+            <option value="selec">Seleccionar ciudad</option>
+            <option value="mvd">Montevideo</option>
+            <option value="bsas">Buenos Aires</option>
+            <option value="flo">Florianópolis</option>
+            <option value="otro">Otra</option>
+        </select>
+        <br>
+        <br>
+        <label for="cel">Celular</label>
+        <input type="number" name="nombre" id="">
+        <br><br>
+        <label for="mail">Correo electrónico</label>
+        <input type="email" name="mail" id="">
+        <br><br>
+        <legend>Escribe tu contraseña</legend>
+        <br>
+        <label for="pass">Contraseña</label>
+        <input type="password" name="pass" id="">
+        <br>
+        <br>
+        <label for="pass">Confirma la Contraseña</label>
+        <input type="password" name="pass" id="">
+        <br><br>
+        <input type="submit" name="entrar" id="" value="Regístrate">
+        <input type="button" value="Ahora no">
+        </form>
+    </fieldset>
+    </main>
+    <footer id="abajo">
+        <a href="#arriba">Vida + Fácil</a>
+        <!--
+                Acceso al menú
+                Ingreso de mail para suscribirse a novedades o newsletter de nuevos productos
+            -->
+        <br>
+        <h3>Newsletter</h3>
+        <input type="email" name="email" required placeholder="Ingresa tu e-mail">
+        <button type="submit">Suscribite</button>
+        <!-- Redes sociales-->
+        <ul>
+            <li>
+                <a href="http://facebook.com" target="blank"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li>
+                <a href="http://instagram.com" target="blank"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="http://tiktok.com" target="blank"><i class="fab fa-tiktok"></i></a>
+            </li>
+            <li>
+                <a href="http://twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+            </li>
+        </ul>
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/5e93425999.js" crossorigin="anonymous"></script>
+</html>

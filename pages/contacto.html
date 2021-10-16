@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="/img/VF.jpg" alt="logov+f.jpg" width="100" height="100">
+        </div>
+    </header>
+    <main>
+      <form action="">
+        <fieldset class="fuente1">
+            <legend>Escribe tu Consulta</legend>
+            <label for="name">Nombre</label>
+            <input type="text" name="name" placeholder="Ingresa tu nombre">
+            <br> <!-- br como provisorio-->
+            <br>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" placeholder="Ingresa tu apellido">
+            <br>
+            <br>
+            <label for="mail">Correo Electrónico</label>
+            <input type="text" name="mail" placeholder="Ingresa tu correo electrónico" required>
+            <br>
+            <br>
+
+            <label for="pais">Selecciona tu País</label>
+            <div>Uruguay</div>
+            <input type="radio" name="pais" value="uruguay" checked="checked"> 
+            <div>Argentina</div>
+            <input type="radio" name="pais" value="argentina"> 
+            <div>Brasil</div>
+            <input type="radio" name="pais" value="brasil">
+            <div>Otro</div>
+            <input type="radio" name="pais" value="otro">
+            <br>
+            <br>
+
+            <label for="ciudad">Selecciona tu Ciudad</label>
+            <br>
+            <select name="ciudad" id="">
+                <option value="sleccionar">Selecciona tu ciudad</option>
+                <option value="mdo">Montevideo</option>
+                <option value="bsas">Buenos Aires</option>
+                <option value="flo">Florianópolis</option>
+                <option value="otro">Otra</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="cosulta"> Escribí tu consulta</label>
+            <br>
+
+            <textarea name="consulta" id="" cols="30" rows="5" maxlength="500" required></textarea>
+
+            <br>
+            <br>
+            <label for="news">¿Desea recibir nuestro catálogo?</label>
+            <br>
+            <br>
+            <input type="checkbox" name="Si" id="">Si
+            <input type="checkbox" name="No" id="">No
+            <input type="checkbox" name="otro" id="">En otro momento
+            <br>
+            <br>
+            <input type="submit" value="Envíar consulta">
+            <input type="reset" value="Limpiar formulario">
+            
+
+        </fieldset>
+    
+    </form>
+</main>
+<footer id="abajo">
+    <a href="#arriba">Vida + Fácil</a>
+    <!--
+            Acceso al menú
+            Ingreso de mail para suscribirse a novedades o newsletter de nuevos productos
+        -->
+    <br>
+    <h3>Newsletter</h3>
+    <input type="email" name="email" required placeholder="Ingresa tu e-mail">
+    <button type="submit">Suscribite</button>
+    <!-- Redes sociales-->
+    <ul>
+        <li>
+            <a href="http://facebook.com" target="blank"><i class="fab fa-facebook-square"></i></a>
+        </li>
+        <li>
+            <a href="http://instagram.com" target="blank"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li>
+            <a href="http://tiktok.com" target="blank"><i class="fab fa-tiktok"></i></a>
+        </li>
+        <li>
+            <a href="http://twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+        </li>
+    </ul>
+</footer>
+</body>
+<script src="https://kit.fontawesome.com/5e93425999.js" crossorigin="anonymous"></script>
+</html>
