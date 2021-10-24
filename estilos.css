@@ -106,6 +106,9 @@ header{
     padding: 0.6rem;
     background-color: rgb(109, 124, 124);
 }
+.buscar{
+    font-size: 15px;
+}
 
 #arriba a{
     background-color: rgb(117, 133, 131);
